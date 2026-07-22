@@ -7,7 +7,7 @@ cask "moai" do
   desc "AI-native dynamic island for the Mac notch"
   homepage "https://chetanjon.github.io/moai/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Moai.app"
