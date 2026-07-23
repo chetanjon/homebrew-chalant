@@ -7,6 +7,9 @@ cask "moai" do
   desc "AI-native dynamic island for the Mac notch"
   homepage "https://chetanjon.github.io/moai/"
 
+  # The app keeps itself current via Sparkle since 1.0.86.
+  auto_updates true
+
   depends_on macos: :sonoma
   depends_on arch: :arm64
 
